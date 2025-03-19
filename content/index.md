@@ -2,4 +2,6 @@
 
 Here is some content.
 
-<UButton>Button</UButton>
+::u-button
+Button
+::
