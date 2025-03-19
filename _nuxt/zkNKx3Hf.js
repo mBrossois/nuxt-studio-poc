@@ -1,1 +1,0 @@
-import{d as e,c as a,i as n,n as s,j as l}from"./CmkMDcr5.js";const r=["placeholder"],p=e({__name:"input",props:{placeholder:{},hasBackgroundColor:{type:Boolean}},setup(c){return(o,t)=>(n(),a("input",{class:s(["input",{"bg-color":o.hasBackgroundColor}]),placeholder:o.placeholder},null,10,r))}}),_=l(p,[["__scopeId","data-v-a63648d7"]]);export{_ as default};
