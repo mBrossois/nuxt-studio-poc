@@ -8,5 +8,12 @@ export default defineNuxtConfig({
       api: 'https://api.nuxt.studio'
     }
   },
-  css: ['~/assets/css/main.css']
+  css: ['~/assets/css/main.css'],
+  hooks: {
+    'components:extend': (components) => {
+      const globals = components.filter(c => ['UColorModeButton', 'UIcon'].includes(c.pascalName))
+
+      globals.forEach(c => c.global = true)
+    }
+  },
 })
