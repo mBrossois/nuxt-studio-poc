@@ -6,5 +6,5 @@ Here is some content.
 Button
 ::
 
-::atoms-input{hasBackgroundColor="true" placeholder="Hello world"}
+::atoms-input{:hasBackgroundColor="true" placeholder="Hello world"}
 ::
