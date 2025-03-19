@@ -1,10 +1,11 @@
 <template>
-    <input class="input" :class="{'bg-color': hasBackgroundColor}" />
+    <input class="input" :placeholder="placeholder" :class="{'bg-color': hasBackgroundColor}" />
 </template>
 
 <script setup lang="ts">
 defineProps<{
-    hasBackgroundColor: boolean
+    placeholder: string
+    hasBackgroundColor?: boolean
 }>()
 </script>
 
