@@ -2,9 +2,12 @@
 
 Here is some content.
 
-::u-button
-Button
+::atoms-input{has-background-color="True" placeholder="New input"}
 ::
 
-::atoms-input{:hasBackgroundColor="true" placeholder="Hello world"}
+::atoms-input{:has-background-color='false' placeholder="Hello world"}
+::
+
+::u-button
+Click me
 ::
