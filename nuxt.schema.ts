@@ -1,8 +1,8 @@
-import { group } from '@nuxthq/studio/theme'
+import { group } from "@nuxt/content/preview";
 
 export default defineNuxtSchema({
   appConfig: {
-    parent: group({
+    translations: group({
       title: 'translations',
       description: 'Translations',
       icon: 'i-ph-palette-fill',
