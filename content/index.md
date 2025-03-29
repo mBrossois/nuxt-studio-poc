@@ -2,6 +2,12 @@
 
 Here is some content.
 
+::translation
+---
+name: NO
+---
+::
+
 ::u-icon{name="i-mdi-access-point-network"}
 ::
 
