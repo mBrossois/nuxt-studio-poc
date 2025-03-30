@@ -1,1 +1,0 @@
-import{d as s,y as o,G as p,c as r,i as c,t as i,Q as l}from"./CNSXo0F6.js";const _=s({__name:"Translation",props:{name:{}},setup(n){const t=n,e=o(),a=p(()=>e.translations.en[t.name]);return(m,u)=>(c(),r("span",null,i(l(a)),1))}});export{_ as default};
