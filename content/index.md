@@ -21,5 +21,4 @@ Click me
 ::red-block{color="red"}
 ::
 
-::u-color-mode-button
-::
+context.app.i18n.locale
