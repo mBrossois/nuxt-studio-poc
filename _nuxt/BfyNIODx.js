@@ -1,1 +1,0 @@
-import{d as s,G as r,c as a,i as n,n as t,Q as l,j as p}from"./Cdd2n_fN.js";const _=s({__name:"red-block",props:{color:{}},setup(o){const e=o,c=r(()=>[`${e.color}-block`]);return(d,m)=>(n(),a("div",{class:t(l(c))},null,2))}}),f=p(_,[["__scopeId","data-v-b5af0254"]]);export{f as default};
