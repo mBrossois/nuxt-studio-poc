@@ -16,11 +16,4 @@ export default defineNuxtConfig({
     }
   },
   css: ['~/assets/css/main.css'],
-  hooks: {
-    'components:extend': (components) => {
-      const globals = components.filter(c => ['UIcon'].includes(c.pascalName))
-
-      globals.forEach(c => c.global = true)
-    }
-  },
 })
