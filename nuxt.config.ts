@@ -16,11 +16,12 @@ export default defineNuxtConfig({
     }
   },
   css: ['~/assets/css/main.css'],
-  // hooks: {
-  //   'components:extend': (components) => {
-  //     const globals = components.filter(c => ['UIcon'].includes(c.pascalName))
+  hooks: {
+    'components:extend': (components) => {
+      console.log(components)
+      const globals = components.filter(c => ['UIcon', 'InputDos'].includes(c.pascalName))
 
-  //     globals.forEach(c => c.global = true)
-  //   }
-  // },
+      globals.forEach(c => c.global = true)
+    }
+  },
 })
