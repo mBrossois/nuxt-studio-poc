@@ -15,8 +15,7 @@ Hello new text
 ::u-icon{name="i-mdi-access-point-network"}
 ::
 
-::input{:has-background-color='false' placeholder="Hello world"}
-::
+Hello world
 
 ::u-button
 Click me
