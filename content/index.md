@@ -2,10 +2,14 @@
 
 Here is some content.
 
-::translation
----
-name: NO
----
+Hello new text
+
+## I am h2
+
+::translation{name="YES"}
+::
+
+::translation{name="NO"}
 ::
 
 ::u-icon{name="i-mdi-access-point-network"}
