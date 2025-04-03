@@ -3,7 +3,7 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{
+const {file = 'globalTranslations', translation} = defineProps<{
     file: 'globalTranslations' | 'secondPageTranslations'
     translation: string
 }>()
@@ -12,6 +12,6 @@ const activeLocale = useI18n().locale.value
 const appConfig = useAppConfig()
 
 const text = computed(() => {
- return appConfig[page.file][activeLocale][props.translation]
+ return appConfig[file][activeLocale][translation]
 })
 </script>
