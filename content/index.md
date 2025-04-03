@@ -2,6 +2,9 @@
 
 Here is some content.
 
+::translation{file="SecondPage" translation="HELLO"}
+::
+
 ## I am h2
 
 ::u-icon{name="i-mdi-access-point-network"}
