@@ -5,13 +5,13 @@ export default defineContentConfig({
     content: defineCollection({
       source: '**',
       type: 'page',
+    }),
+    translations: defineCollection({
+      type: 'data',
+      source: 'translations/**.json',
       schema: z.object({
-        translations: z.object({
-          en: z.object({
-          }),
-          fr: z.object({
-          })
-        })
+        en: z.object({}),
+        fr: z.object({})
       })
     })
   },
