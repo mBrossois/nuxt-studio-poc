@@ -1,12 +1,9 @@
 ---
-translations: {
-    en: {
+translations: 
+    en:
         hello: Hello
-    },
-    fr: {
+    fr:
         hello: Salut
-    }
-}
 ---
 
 # My Second Page
