@@ -2,15 +2,7 @@
 
 Here is some content.
 
-Hello new text
-
 ## I am h2
-
-::translation{translation="YES"}
-::
-
-::translation{file="secondPageTranslations" translation="HELLO"}
-::
 
 ::u-icon{name="i-mdi-access-point-network"}
 ::
