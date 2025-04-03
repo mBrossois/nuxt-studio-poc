@@ -1,5 +1,5 @@
 export default defineAppConfig({
-    Global: {
+    global: {
         en: {
           NO: 'NO',
           YES: 'YES'
@@ -9,7 +9,7 @@ export default defineAppConfig({
           YES: 'OUI'
         }
     },
-    SecondPage: {
+    secondPage: {
       en: {
         HELLO: 'Hello'
       },
