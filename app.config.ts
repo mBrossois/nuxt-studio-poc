@@ -14,7 +14,7 @@ export default defineAppConfig({
         HELLO: 'Hello'
       },
       fr: {
-        Hello: 'Salut'
+        HELLO: 'Salut'
       }
     }
 })
