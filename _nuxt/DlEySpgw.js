@@ -1,1 +1,0 @@
-import{d as e,c as a,i as p,n,j as s}from"./hkQtPJYO.js";const l=["placeholder"],r=e({__name:"AppInput",props:{placeholder:{},hasBackgroundColor:{type:Boolean}},setup(c){return(o,t)=>(p(),a("input",{class:n(["input",{"bg-color":o.hasBackgroundColor}]),placeholder:o.placeholder},null,10,l))}}),_=s(r,[["__scopeId","data-v-bb68a32e"]]);export{_ as default};
