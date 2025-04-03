@@ -8,10 +8,8 @@ export default defineContentConfig({
       schema: z.object({
         translations: z.object({
           en: z.object({
-            hello: z.string()
           }),
           fr: z.object({
-            hello: z.string()
           })
         })
       })
