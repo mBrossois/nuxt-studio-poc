@@ -3,8 +3,8 @@
 </template>
 
 <script setup lang="ts">
-const {file = 'globalTranslations', translation} = defineProps<{
-    file: 'globalTranslations' | 'secondPageTranslations'
+const {file = 'Global', translation} = defineProps<{
+    file: 'Global' | 'SecondPage'
     translation: string
 }>()
 const activeLocale = useI18n().locale.value

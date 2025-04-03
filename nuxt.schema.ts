@@ -2,7 +2,7 @@ import { field, group } from "@nuxt/content/preview";
 
 export default defineNuxtSchema({
   appConfig: {
-    globalTranslations: {
+    Global: {
       en: group({
         title: 'en',
         description: 'Translations',
@@ -14,7 +14,7 @@ export default defineNuxtSchema({
         icon: 'i-ph-palette-fill'
       })
     },
-    secondPageTranslations: {
+    SecondPage: {
       en: group({
         title: 'en',
         description: 'Translations',
