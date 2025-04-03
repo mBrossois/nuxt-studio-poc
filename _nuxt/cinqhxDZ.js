@@ -1,1 +1,0 @@
-import{d as t,c as p,i as l}from"./DwL99wbs.js";const n=["type","placeholder"],r=t({__name:"InputDos",props:{type:{type:String,default:"text"},placeholder:{type:String,default:""}},setup(e){return(o,a)=>(l(),p("input",{type:e.type,placeholder:e.placeholder},null,8,n))}});export{r as default};
