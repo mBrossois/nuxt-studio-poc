@@ -1,9 +1,9 @@
 ---
 translations: 
     en:
-        hello: Hello
+        hello: "Hello"
     fr:
-        hello: Salut
+        hello: "Salut"
 ---
 
 # My Second Page
