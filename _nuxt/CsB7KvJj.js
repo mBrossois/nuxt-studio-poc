@@ -1,0 +1,1 @@
+import{d as o,a3 as c,y as p,G as r,c as l,t as i,Q as u,i as m}from"./DQS2SDAV.js";const g=o({__name:"Translation",props:{name:{}},setup(a){const n=a,e=c().locale.value,s=p(),t=r(()=>s.globalTranslations[e][n.name]);return(f,_)=>(m(),l("span",null,i(u(t)),1))}});export{g as default};
