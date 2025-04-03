@@ -1,5 +1,5 @@
 export default defineAppConfig({
-    translations: {
+    globalTranslations: {
         en: {
           NO: 'NO',
           YES: 'YES'
@@ -8,5 +8,13 @@ export default defineAppConfig({
           NO: 'NON',
           YES: 'OUI'
         }
+    },
+    secondPageTranslations: {
+      en: {
+        HELLO: 'Hello'
+      },
+      fr: {
+        Hello: 'Salut'
+      }
     }
 })
