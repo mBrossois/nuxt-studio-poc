@@ -6,10 +6,10 @@ Hello new text
 
 ## I am h2
 
-::translation{name="YES"}
+::translation{translation="YES"}
 ::
 
-::translation{name="NO"}
+::translation{file="secondPageTranslations" translation="HELLO"}
 ::
 
 ::u-icon{name="i-mdi-access-point-network"}
@@ -19,7 +19,6 @@ Hello new text
 ::
 
 ::u-button
-Click me
 ::
 
 ::red-block{color="red"}
