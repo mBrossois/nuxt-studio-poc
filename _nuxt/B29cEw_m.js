@@ -1,0 +1,1 @@
+import{d as s,G as r,c as a,n,Q as t,i as l,j as p}from"./CNSO6A0_.js";const _=s({__name:"red-block",props:{color:{}},setup(o){const e=o,c=r(()=>[`${e.color}-block`]);return(d,m)=>(l(),a("div",{class:n(t(c))},null,2))}}),f=p(_,[["__scopeId","data-v-b5af0254"]]);export{f as default};
