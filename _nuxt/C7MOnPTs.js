@@ -1,0 +1,1 @@
+import{d as s,a3 as o,y as l,G as c,c as r,t as i,Q as p,i as u}from"./C6qtFBtq.js";const g=s({__name:"Translation",props:{file:{default:"globalTranslations"},translation:{}},setup(a){const n=o().locale.value,t=l(),e=c(()=>t[a.file][n][a.translation]);return(f,m)=>(u(),r("span",null,i(p(e)),1))}});export{g as default};
