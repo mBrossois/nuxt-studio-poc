@@ -3,7 +3,8 @@ import { field, group } from "@nuxt/content/preview";
 export default defineNuxtSchema({
   appConfig: {
     Global: {
-      en: group({
+      en: field({
+        type: 'object',
         title: 'en',
         description: 'Translations',
         icon: 'i-ph-palette-fill'
