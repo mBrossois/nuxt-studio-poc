@@ -31,16 +31,19 @@ export default defineNuxtSchema({
       })
     },
     SecondPage: {
-      en: group({
+      translations: group({
         title: 'en',
         description: 'Translations',
-        icon: 'i-ph-palette-fill'
+        icon: 'i-ph-palette-fill',
+        fields: {
+          EN: field({
+            type: 'object',
+            title: 'En translations',
+            description: 'No translation',
+            icon: 'i-ph-palette-fill',
+          })
+        }
       }),
-      fr: group({
-        title: 'fr',
-        description: 'Translations',
-        icon: 'i-ph-palette-fill'
-      })
     },
   }
 })

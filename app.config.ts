@@ -10,11 +10,13 @@ export default defineAppConfig({
         }
     },
     SecondPage: {
-      en: {
-        HELLO: 'Hello'
-      },
-      fr: {
-        HELLO: 'Salut'
+      tranlations : {
+        en: {
+          HELLO: 'Hello'
+        },
+        fr: {
+          HELLO: 'Salut'
+        }
       }
     }
 })
