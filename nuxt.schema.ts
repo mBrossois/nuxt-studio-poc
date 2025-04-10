@@ -41,6 +41,7 @@ export default defineNuxtSchema({
             title: 'En translations',
             description: 'No translation',
             icon: 'i-ph-palette-fill',
+            default: {}
           })
         }
       }),
