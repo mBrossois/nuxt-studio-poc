@@ -21,14 +21,6 @@ export default defineNuxtSchema({
         title: 'fr',
         description: 'Translations',
         icon: 'i-ph-palette-fill',
-        fields: {
-          NO: field({
-            type: 'Object',
-            title: 'NO',
-            description: 'No translation',
-            icon: 'i-ph-palette-fill',
-          })
-        }
       })
     },
     SecondPage: {
