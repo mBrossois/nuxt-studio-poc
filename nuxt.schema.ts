@@ -12,7 +12,8 @@ export default defineNuxtSchema({
           NO: field({
             type: 'string',
             title: 'NO',
-            description: 'No translation'
+            description: 'No translation',
+            icon: 'i-ph-palette-fill',
           })
         }
       }),
@@ -24,7 +25,8 @@ export default defineNuxtSchema({
           NO: field({
             type: 'Object',
             title: 'NO',
-            description: 'No translation'
+            description: 'No translation',
+            icon: 'i-ph-palette-fill',
           })
         }
       })
