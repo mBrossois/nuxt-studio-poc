@@ -37,7 +37,7 @@ export default defineNuxtSchema({
         icon: 'i-ph-palette-fill',
         fields: {
           EN: field({
-            type: 'object',
+            type: 'string',
             title: 'En translations',
             description: 'No translation',
             icon: 'i-ph-palette-fill',
