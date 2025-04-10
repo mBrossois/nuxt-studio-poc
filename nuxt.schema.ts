@@ -3,16 +3,30 @@ import { field, group } from "@nuxt/content/preview";
 export default defineNuxtSchema({
   appConfig: {
     Global: {
-      en: field({
+      en: group({
         type: 'object',
         title: 'en',
         description: 'Translations',
-        icon: 'i-ph-palette-fill'
+        icon: 'i-ph-palette-fill',
+        fields: {
+          NO: field({
+            type: 'string',
+            title: 'NO',
+            description: 'No translation'
+          })
+        }
       }),
       fr: group({
         title: 'fr',
         description: 'Translations',
-        icon: 'i-ph-palette-fill'
+        icon: 'i-ph-palette-fill',
+        fields: {
+          NO: field({
+            type: 'Object',
+            title: 'NO',
+            description: 'No translation'
+          })
+        }
       })
     },
     SecondPage: {
