@@ -10,8 +10,8 @@ const {file = 'Global', translation} = defineProps<{
 const activeLocale = useI18n().locale.value
 
 const appConfig = useAppConfig()
-
-const text = computed(() => {
- return appConfig[file][activeLocale][translation]
-})
+const text = 'no'
+// const text = computed(() => {
+//  return appConfig[file][activeLocale][translation]
+// })
 </script>
