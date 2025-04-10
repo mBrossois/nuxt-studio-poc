@@ -1,1 +1,0 @@
-{"id":"3e241626-99f4-4b61-9995-07a471b7ea5f","timestamp":1744288950982,"matcher":{"static":{"/api/content/content/database.sql":{"prerender":true},"/api/content/translations/database.sql":{"prerender":true}},"wildcard":{},"dynamic":{}},"prerendered":["/fr","/en"]}
