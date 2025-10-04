@@ -1,8 +1,9 @@
 <script setup lang="ts">
+
 const components = [
-  { name: 'Home', component: resolveComponent('Home') },
-  { name: 'Legal-intelligence', component: resolveComponent('LegalIntelligence') },
-  { name: 'ComponentGuide', component: resolveComponent('ComponentGuide') },
+  { name: 'Home', component: resolveComponent('MarketingHome') },
+  { name: 'Legal-intelligence', component: resolveComponent('MarketingLegalIntelligence') },
+  { name: 'ComponentGuide', component: resolveComponent('MarketingComponentGuide') },
 ]
 
 const languages = [
