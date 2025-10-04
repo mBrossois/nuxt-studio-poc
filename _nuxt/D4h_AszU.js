@@ -1,0 +1,1 @@
+import{C as e,d as a,i as h}from"#entry";const i=["src","alt","width","height"],l=e({__name:"AppImage",props:{src:{},alt:{},width:{},height:{}},setup(t){return(c,n)=>(h(),a("img",{src:t.src,alt:t.alt,width:t.width,height:t.height},null,8,i))}});export{l as default};
