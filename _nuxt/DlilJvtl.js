@@ -1,0 +1,1 @@
+import{C as o,d as a,i as n,n as t,_ as c}from"#entry";const l=["placeholder"],s=o({__name:"AppInput",props:{placeholder:{},hasBackgroundColor:{type:Boolean}},setup(e){return(r,p)=>(n(),a("input",{class:t(["input",{"bg-color":e.hasBackgroundColor}]),placeholder:e.placeholder},null,10,l))}}),d=c(s,[["__scopeId","data-v-bb68a32e"]]);export{d as default};

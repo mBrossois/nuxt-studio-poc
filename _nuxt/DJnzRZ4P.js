@@ -1,0 +1,1 @@
+import{C as t,d as p,i as l}from"#entry";const n=["type","placeholder"],c=t({__name:"InputDos",props:{type:{type:String,default:"text"},placeholder:{type:String,default:""}},setup(e){return(o,a)=>(l(),p("input",{type:e.type,placeholder:e.placeholder},null,8,n))}});export{c as default};

@@ -1,0 +1,1 @@
+import{C as c,G as r,d as a,n,R as t,i as l,_ as p}from"#entry";const _=c({__name:"red-block",props:{color:{}},setup(o){const e=o,s=r(()=>[`${e.color}-block`]);return(d,m)=>(l(),a("div",{class:n(t(s))},null,2))}}),f=p(_,[["__scopeId","data-v-b5af0254"]]);export{f as default};
