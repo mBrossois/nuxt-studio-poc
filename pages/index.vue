@@ -24,14 +24,14 @@ const templateComponent = computed(() => components.find(component => component.
       <div>
         <label for="page" class="title" >Page:</label>
 
-        <select name="page" id="page" v-model="page">
+        <select class="select" name="page" id="page" v-model="page">
           <option v-for="component in components" :value="component.name">{{ component.name }}</option>
         </select>
       </div>
       <div>
         <label for="language" class="title" >Language:</label>
 
-        <select name="language" id="language" v-model="language">
+        <select class="select" name="language" id="language" v-model="language">
           <option v-for="language in languages" :value="language">{{ language }}</option>
         </select>
       </div>
@@ -52,5 +52,15 @@ const templateComponent = computed(() => components.find(component => component.
 
 .title {
   font-weight: bold;
+  color: white;
+}
+
+.select {
+  border-radius: 4px;
+  margin-left: 4px;
+  padding: 4px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
 }
 </style>
