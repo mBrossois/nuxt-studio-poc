@@ -17,3 +17,6 @@ Here is some content.
 ::
 
 context.app.i18n.locale
+
+::app-image{alt="Monkey" height="300px" src="/monkey.webp" width="200px"}
+::
