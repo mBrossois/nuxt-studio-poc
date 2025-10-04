@@ -7,7 +7,7 @@ Here is some content.
 ::u-icon{name="i-mdi-access-point-network"}
 ::
 
-::app-input{:has-background-color='false' placeholder="Hello world"}
+::app-input{hasBackgroundColor placeholder="Hello world"}
 ::
 
 ::u-button
