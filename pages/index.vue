@@ -11,7 +11,7 @@ const languages = [
   'fr',
 ]
 
-const page = ref('Home')
+const page = ref('')
 
 const language = ref('en')
 
@@ -25,6 +25,7 @@ const templateComponent = computed(() => components.find(component => component.
         <label for="page" class="title" >Page:</label>
 
         <select class="select" name="page" id="page" v-model="page">
+          <option value="" selected disabled hidden>Select a page</option>
           <option v-for="component in components" :value="component.name">{{ component.name }}</option>
         </select>
       </div>
