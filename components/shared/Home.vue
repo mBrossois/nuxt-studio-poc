@@ -9,6 +9,11 @@ const { data: page } = await useAsyncData(() => queryCollection('content').path(
 </script>
 
 <template>
-    <ContentRenderer v-if="page" :value="page" />
+    <ContentRenderer v-if="page" class="nuxt-content" :value="page" />
     <div v-else>Page not found</div>
 </template>
+
+<style lang="scss">
+@forward '../../assets/css/main.scss';
+
+</style>

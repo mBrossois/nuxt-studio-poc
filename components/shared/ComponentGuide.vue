@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="nuxt-content">
         <h1>Component Guide</h1>
         <h2>AppInput</h2>
         <AppInput placeholder="Hello world" />

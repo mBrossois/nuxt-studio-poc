@@ -13,6 +13,6 @@ const page = computed(() => {
 </script>
 
 <template>
-    <ContentRenderer v-if="page" :value="page" />
+    <ContentRenderer v-if="page" class="nuxt-content" :value="page" />
     <div v-else>Page not found</div>
 </template>
